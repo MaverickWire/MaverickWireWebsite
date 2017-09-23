@@ -6,7 +6,7 @@ html   {
 }
 
 body  {
-	background-color: lavender;
+	background-color: gainsboro;
     width: 85%;
     margin: 0 auto;
     margin-top: 75px;
@@ -76,55 +76,55 @@ a:hover {
 /* Start of size controls */
 
 .size100 {
-    width: 98%;
+    width: 96%;
     float: left;
     margin: 1%;
 }
 
 .size75 {
-    width: 73%;
+    width: 71%;
     float: left;
     margin: 1%;
 }
 
 .size50 {
-    width: 48%;
+    width: 46%;
     float: left;
     margin: 1%;
 }
 
 .size40 {
-    width: 38%;
+    width: 36%;
     float: left;
     margin: 1%;
 }
 
 .size33 {
-    width: 31.3%;
+    width: 29.3%;
     float: left;
     margin: 1%;
 }
 
 .size30 {
-    width: 28%;
+    width: 26%;
     margin: 1%;
     float: left;
 }
 
 .size25 {
-    width: 23%;
+    width: 21%;
     margin: 1%;
     float: left;
 }
 
 .size20 {
-    width: 18%;
+    width: 16%;
     margin: 1%;
     float: left   
 }
 
 .size10 {
-    width: 8%;
+    width: 6%;
     margin: 1%;
     float: left;
 }
@@ -161,25 +161,25 @@ a:hover {
 #feature, .article{
     height: 15em;
     margin-bottom: 1em;
-    background-color: white;
+    background-color: whitesmoke;
     overflow: auto;
     text-align: center;
-    padding: 0px;
+    padding: 1%;
 }
 
 .post {
     height: 15em;
     margin-bottom: 1em;
-    background-color: white;
+    background-color: whitesmoke;
     overflow: auto;
     text-align: left;
-    padding: 0px;
+    padding: 1%;
 }
 
 .image{
     height: 25em;
     margin-bottom: 1em;
-    background-color: white;
+    background-color: whitesmoke;
     overflow: auto;
     text-align: center;
 }
@@ -190,7 +190,7 @@ a:hover {
     margin-left: 1%;
     margin-right: 1%;
     margin-bottom: 1em;
-    background-color: white;
+    background-color: whitesmoke;
     overflow: auto;
     text-align: center;
 }
