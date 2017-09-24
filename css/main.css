@@ -158,13 +158,24 @@ a:hover {
     margin: 1%;
 }
 
-#feature, .article{
+#feature, .article {
     height: 15em;
     margin-bottom: 1em;
     background-color: whitesmoke;
     overflow: auto;
-    text-align: center;
     padding: 1%;
+}
+
+.leftalign {
+    text-align: left;
+}
+
+.centeralign {
+    text-align: center;
+}
+
+.rightalign {
+    text-align: right;
 }
 
 .post {
