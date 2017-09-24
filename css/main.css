@@ -70,7 +70,11 @@ a:hover {
 
 .title {
     color: mediumpurple;
-    background-color: #1e2625;
+    background-color: lavender;
+    padding-right: 10px;
+    padding-bottom: 0;
+    padding-top: 0;
+    padding-left: 0;
 }
 
 /* Start of size controls */
