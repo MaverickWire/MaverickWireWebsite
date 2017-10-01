@@ -1,8 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 
-html   {
+* {
 	font-family: 'Roboto', sans-serif;
-    font-size: 16px;
 }
 
 body  {
@@ -10,6 +9,7 @@ body  {
     width: 85%;
     margin: 0 auto;
     margin-top: 75px;
+    max-width: 1200px;
 }
 
 a  {
@@ -35,7 +35,7 @@ ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    overflow: hidden;
+    overflow: auto;
     background-color: #1e2625;
     position: fixed;
     top: 0;
@@ -158,11 +158,11 @@ a:hover {
 
 /* End of size controls */
 
-#nav, #feature, #footer {
+nav, #feature, #footer {
     margin: 1%;
 }
 
-#feature, .article {
+#feature, article {
     height: 15em;
     margin-bottom: 1em;
     background-color: whitesmoke;
