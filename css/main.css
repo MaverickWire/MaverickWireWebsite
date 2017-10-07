@@ -79,6 +79,8 @@ a:hover {
 
 /* Start of size controls */
 
+/* Start of column rules */
+
 .size100 {
     width: 96%;
     float: left;
@@ -132,6 +134,8 @@ a:hover {
     margin: 1%;
     float: left;
 }
+
+/* End of column rules */
 
 @media only screen and (max-width: 768px) {
     /* For mobile phones: */
