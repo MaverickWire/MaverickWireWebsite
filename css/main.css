@@ -172,14 +172,22 @@ nav, #feature, #footer {
 
 .leftalign {
     text-align: left;
+    display: inline;
+    float: left;
+    padding: 1%;
 }
 
 .centeralign {
     text-align: center;
+    display: inline;
+    padding: 1%;
 }
 
 .rightalign {
     text-align: right;
+    display: inline;
+    float: right;
+    padding: 1%;
 }
 
 .post {
