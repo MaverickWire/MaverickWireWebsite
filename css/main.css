@@ -8,8 +8,7 @@ body  {
 	background-color: lavender;
     width: 85%;
     margin: 0 auto;
-    margin-top: 75px;
-    max-width: 1200px;
+    margin-top: 75px;  
 }
 
 a  {
@@ -22,16 +21,12 @@ p, h1, h2, h3, h4, h5, h6 {
     margin-left: 1%;
 }
 
-h5 {
-    color: black;
-}
-
 table, th, td {
     border: 1px solid black;
     text-align: center;
 }
 
-ul {
+nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -42,24 +37,26 @@ ul {
     width: 83.375%;
 }
 
-li  {
+nav li  {
 	float: left;
 }
 
-li a {
+nav li a {
     color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
 
-li a:hover {
+nav li a:hover {
     background-color: mediumpurple;
     color: white;
+    text-decoration: none;
 }
 
 a:hover {
     color: mediumpurple;
+    text-decoration: underline;
 }
 
 /* Start of class CSS rules */
@@ -89,6 +86,12 @@ a:hover {
 
 .size75 {
     width: 71%;
+    float: left;
+    margin: 1%;
+}
+
+.size60 {
+    width: 56%;
     float: left;
     margin: 1%;
 }
@@ -126,7 +129,13 @@ a:hover {
 .size20 {
     width: 16%;
     margin: 1%;
-    float: left   
+    float: left;  
+}
+
+.size15 {
+    width: 11%;
+    margin: 1%;
+    float: left;
 }
 
 .size10 {
