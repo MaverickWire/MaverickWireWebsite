@@ -78,70 +78,89 @@ a:hover {
 
 /* Start of column rules */
 
-.size100 {
-    width: 96%;
+.size100, .size95, .size90, .size85 .size80, .size75, .size70, .size65, .size60, .size55, .size50, .size45, .size40, .size35, .size33, .size30, .size25, .size20, .size15, .size10 {
     float: left;
     margin: 1%;
+}
+
+.size100 {
+    width: 96%;
+}
+
+.size95 {
+    width: 91%;
+}
+
+.size90 {
+    width: 86%;
+}
+
+.size85 {
+    width: 81%;
+}
+
+.size80 {
+    width: 76%;
 }
 
 .size75 {
     width: 71%;
-    float: left;
-    margin: 1%;
+}
+
+.size70 {
+    width: 66%;
+}
+
+.size65 {
+    width: 61%;
 }
 
 .size60 {
-    width: 56%;
-    float: left;
-    margin: 1%;
+    width: 55%;
+}
+
+.size55 {
+    width: 51%;
 }
 
 .size50 {
     width: 46%;
-    float: left;
-    margin: 1%;
+}
+
+.size45 {
+    width: 41%;
 }
 
 .size40 {
     width: 36%;
-    float: left;
-    margin: 1%;
+}
+
+.size35 {
+    width: 31%;
 }
 
 .size33 {
     width: 29.3%;
-    float: left;
-    margin: 1%;
 }
 
 .size30 {
     width: 26%;
-    margin: 1%;
-    float: left;
 }
 
 .size25 {
     width: 21%;
-    margin: 1%;
-    float: left;
 }
 
 .size20 {
-    width: 16%;
-    margin: 1%;
-    float: left;  
+    width: 16%;  
 }
 
 .size15 {
     width: 11%;
-    margin: 1%;
-    float: left;
 }
 
 .size10 {
     width: 6%;
-    margin: 1%;
-    float: left;
 }
 
 /* End of column rules */
@@ -171,43 +190,49 @@ a:hover {
 
 /* End of size controls */
 
-nav, #feature, #footer {
-    margin: 1%;
-}
+/* Start of text-align rules */
 
-#feature, article {
-    height: 15em;
-    margin-bottom: 1em;
-    background-color: whitesmoke;
-    overflow: auto;
+.leftalign, .centeralign, .rightalign {
+    display: inline;
     padding: 1%;
 }
 
 .leftalign {
     text-align: left;
-    display: inline;
     float: left;
-    padding: 1%;
 }
 
 .centeralign {
     text-align: center;
-    display: inline;
-    padding: 1%;
 }
 
 .rightalign {
     text-align: right;
-    display: inline;
     float: right;
+}
+
+nav, #feature, #footer {
+    margin: 1%;
+}
+
+/* End of text-align rules */
+
+article, .post, .image, #head2 {
+    background-color: white;
+    overflow: auto;
+    border-style: hidden;
+    border-radius: 6px;
+}
+
+article {
+    height: 15em;
+    margin-bottom: 1em;
     padding: 1%;
 }
 
 .post {
     height: 15em;
     margin-bottom: 1em;
-    background-color: whitesmoke;
-    overflow: auto;
     text-align: left;
     padding: 1%;
 }
@@ -215,8 +240,6 @@ nav, #feature, #footer {
 .image{
     height: 25em;
     margin-bottom: 1em;
-    background-color: whitesmoke;
-    overflow: auto;
     text-align: center;
 }
 
@@ -226,7 +249,5 @@ nav, #feature, #footer {
     margin-left: 1%;
     margin-right: 1%;
     margin-bottom: 1em;
-    background-color: whitesmoke;
-    overflow: auto;
     text-align: center;
 }
