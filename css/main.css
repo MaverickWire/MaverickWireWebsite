@@ -16,6 +16,11 @@ a {
     text-decoration: none;
 }
 
+
+a:hover {
+    color: mediumpurple;
+}
+
 p,
 h1,
 h2,
@@ -39,47 +44,31 @@ nav ul {
     margin: 0;
     padding: 0;
     overflow: auto;
-    background-color: #1e2625;
-    position: fixed;
+    position: absolute;
     top: 0;
     width: 83.375%;
 }
 
 nav li {
-    float: left;
+    float: right;
 }
 
 nav li a {
-    color: white;
     text-align: center;
-    padding: 14px 16px;
+    padding: 4px 10px;
     text-decoration: none;
-}
-
-nav li a:hover {
-    background-color: mediumpurple;
-    color: white;
-    text-decoration: none;
-}
-
-a:hover {
-    color: mediumpurple;
-    text-decoration: underline;
+    height: 30px;
+    width: 95px;
 }
 
 /* Start of class CSS rules */
 
 .active {
-    background-color: rebeccapurple;
+    color: black;
 }
 
-.title {
-    color: mediumpurple;
-    background-color: lavender;
-    padding-right: 10px;
-    padding-bottom: 0;
-    padding-top: 0;
-    padding-left: 0;
+.logo {
+    display: inline;
 }
 
 /* Start of size controls */
@@ -289,7 +278,6 @@ article {
 .image {
     height: 25em;
     margin-bottom: 1em;
-    text-align: center;
 }
 
 #head2 {
