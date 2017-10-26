@@ -241,6 +241,22 @@ nav,
 
 /* End of text-align rules */
 
+/* Start of column height rules */
+
+.height15 {
+    height: 15em;
+}
+
+.height20 {
+    height: 20em;
+}
+
+.height25 {
+    height: 25em;
+}
+
+/* End of column height rules */
+
 article,
 .post,
 .image,
@@ -248,19 +264,12 @@ article,
     background-color: white;
     overflow: auto;
     border-style: hidden;
-    border-radius: 6px;
+    border-radius: 10px;
 }
 
 article {
     height: 15em;
     margin-bottom: 1em;
-    padding: 1%;
-}
-
-.post {
-    height: 15em;
-    margin-bottom: 1em;
-    text-align: left;
     padding: 1%;
 }
 
