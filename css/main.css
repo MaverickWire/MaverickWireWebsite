@@ -177,10 +177,11 @@ nav ul li {
 }
 
 @media screen and (max-width: 768px) {
-    li {
-        float: left;
+    nav ul li {
+        float: right;
+        width: 100px;
     }
-    li a {
+    nav ul li a {
         display: block;
     }
     body {
@@ -189,10 +190,10 @@ nav ul li {
 }
 
 @media screen and (max-width: 400px) {
-    li {
+    nav ul li {
         float: left;
     }
-    li a {
+    nav ul li a {
         display: block;
     }
     body {
@@ -201,7 +202,7 @@ nav ul li {
 }
 
 @media screen and (min-width: 768px) {
-    li a {
+    nav ul li a {
         display: block;
     }
 }
