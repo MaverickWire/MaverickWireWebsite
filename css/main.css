@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: lavender;
+    background-color: #d9d4f9;
     width: 85%;
     margin: 0 auto;
     margin-top: 75px;
@@ -221,7 +221,6 @@ nav ul li {
 
 .leftalign {
     text-align: left;
-    float: left;
 }
 
 .centeralign {
@@ -230,6 +229,16 @@ nav ul li {
 
 .rightalign {
     text-align: right;
+}
+.leftfloat, .rightfloat {
+    padding: 1%;
+}
+
+.leftfloat {
+    float: left;
+}
+
+.rightfloat {
     float: right;
 }
 
