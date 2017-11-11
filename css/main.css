@@ -9,6 +9,8 @@
 body {
     background-color: lavender;
     width: 90%;
+    min-width: 800px;
+    max-width: 1400px;
     margin: 0 auto;
     margin-top: 75px;
 }
@@ -42,6 +44,7 @@ nav ul {
     top: 0;
     position: absolute;
     width: 88.375%;
+    min-width: 707px;
 }
 
 nav ul li {
@@ -170,49 +173,6 @@ nav ul li {
 }
 
 /* End of column rules */
-
-@media only screen and (max-width: 768px) {
-    /* For mobile phones: */
-    [class*="size"] {
-        width: 100%;
-    }
-}
-
-@media screen and (max-width: 768px) {
-    nav ul li {
-        float: right;
-        width: 100px;
-    }
-    nav ul li a {
-        display: block;
-    }
-    body {
-        margin-top: 110px;
-    }
-}
-
-@media screen and (max-width: 400px) {
-    nav ul li {
-        float: left;
-    }
-    nav ul li a {
-        display: block;
-    }
-    body {
-        margin-top: 170px;
-    }
-}
-
-@media screen and (min-width: 768px) {
-    nav ul li a {
-        display: block;
-    }
-}
-
-
-/* End of size controls */
-
-/* Start of text-align rules */
 
 .leftalign,
 .centeralign,
