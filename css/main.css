@@ -8,7 +8,7 @@
 
 body {
     background-color: lavender;
-    width: 85%;
+    width: 90%;
     margin: 0 auto;
     margin-top: 75px;
 }
@@ -41,7 +41,7 @@ nav ul {
     padding: 0;
     top: 0;
     position: absolute;
-    width: 83.375%;
+    width: 88.375%;
 }
 
 nav ul li {
@@ -294,8 +294,6 @@ article {
 #head2 {
     height: auto;
     width: 98%;
-    margin-left: 1%;
-    margin-right: 1%;
-    margin-bottom: 1em;
+    margin: 1%;
     text-align: center;
 }
