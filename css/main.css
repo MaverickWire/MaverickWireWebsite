@@ -1,4 +1,5 @@
 /* Copyright 2017 Maverick Wire LLC */
+
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 
 * {
@@ -231,7 +232,9 @@ nav ul li {
 .rightalign {
     text-align: right;
 }
-.leftfloat, .rightfloat {
+
+.leftfloat,
+.rightfloat {
     padding: 1%;
 }
 
