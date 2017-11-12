@@ -9,7 +9,6 @@
 body {
     background-color: lavender;
     width: 90%;
-    min-width: 800px;
     max-width: 1400px;
     margin: 0 auto;
     margin-top: 75px;
@@ -44,7 +43,6 @@ nav ul {
     top: 0;
     position: absolute;
     width: 88.375%;
-    min-width: 707px;
 }
 
 nav ul li {
@@ -231,7 +229,6 @@ nav,
 /* End of column height rules */
 
 article,
-.post,
 .image,
 #head2 {
     background-color: white;
@@ -257,3 +254,32 @@ article {
     margin: 1%;
     text-align: center;
 }
+
+
+@media only screen and (max-width: 1000px) {
+    .size100,
+    .size95,
+    .size90,
+    .size85,
+    .size80,
+    .size75,
+    .size70,
+    .size65,
+    .size60,
+    .size55,
+    .size50,
+    .size45,
+    .size40,
+    .size35,
+    .size33,
+    .size30,
+    .size25,
+    .size20,
+    .size15,
+    .size10 {
+        width: 96%;
+        height: auto;
+        text-align: center;
+    }
+}
+
