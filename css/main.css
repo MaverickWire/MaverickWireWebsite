@@ -1,4 +1,5 @@
 /* Copyright 2017 Maverick Wire LLC */
+
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 
 * {
@@ -7,7 +8,8 @@
 
 body {
     background-color: lavender;
-    width: 85%;
+    width: 90%;
+    max-width: 1400px;
     margin: 0 auto;
     margin-top: 75px;
 }
@@ -40,7 +42,7 @@ nav ul {
     padding: 0;
     top: 0;
     position: absolute;
-    width: 83.375%;
+    width: 88.375%;
 }
 
 nav ul li {
@@ -170,49 +172,6 @@ nav ul li {
 
 /* End of column rules */
 
-@media only screen and (max-width: 768px) {
-    /* For mobile phones: */
-    [class*="size"] {
-        width: 100%;
-    }
-}
-
-@media screen and (max-width: 768px) {
-    nav ul li {
-        float: right;
-        width: 100px;
-    }
-    nav ul li a {
-        display: block;
-    }
-    body {
-        margin-top: 110px;
-    }
-}
-
-@media screen and (max-width: 400px) {
-    nav ul li {
-        float: left;
-    }
-    nav ul li a {
-        display: block;
-    }
-    body {
-        margin-top: 170px;
-    }
-}
-
-@media screen and (min-width: 768px) {
-    nav ul li a {
-        display: block;
-    }
-}
-
-
-/* End of size controls */
-
-/* Start of text-align rules */
-
 .leftalign,
 .centeralign,
 .rightalign {
@@ -231,7 +190,9 @@ nav ul li {
 .rightalign {
     text-align: right;
 }
-.leftfloat, .rightfloat {
+
+.leftfloat,
+.rightfloat {
     padding: 1%;
 }
 
@@ -268,7 +229,6 @@ nav,
 /* End of column height rules */
 
 article,
-.post,
 .image,
 #head2 {
     background-color: white;
@@ -291,8 +251,34 @@ article {
 #head2 {
     height: auto;
     width: 98%;
-    margin-left: 1%;
-    margin-right: 1%;
-    margin-bottom: 1em;
+    margin: 1%;
     text-align: center;
+}
+
+
+@media only screen and (max-width: 1000px) {
+    .size100,
+    .size95,
+    .size90,
+    .size85,
+    .size80,
+    .size75,
+    .size70,
+    .size65,
+    .size60,
+    .size55,
+    .size50,
+    .size45,
+    .size40,
+    .size35,
+    .size33,
+    .size30,
+    .size25,
+    .size20,
+    .size15,
+    .size10 {
+        width: 96%;
+        height: auto;
+        text-align: center;
+    }
 }
