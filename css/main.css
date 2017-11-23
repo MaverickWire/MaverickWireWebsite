@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 
 * {
-    font-family: 'Roboto', Arial, sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 body {
@@ -214,8 +214,24 @@ nav,
 
 /* Start of column height rules */
 
+.height5 {
+    height: 5em;
+}
+
+.height7 {
+    height: 7.5em;
+}
+
+.height10 {
+    height: 10em;
+}
+
 .height15 {
     height: 15em;
+}
+
+.height17 {
+    height: 17.5em;
 }
 
 .height20 {
@@ -234,7 +250,7 @@ article,
     background-color: white;
     overflow: auto;
     border-style: hidden;
-    border-radius: 10px;
+    border-radius: 5px;
 }
 
 article {
@@ -255,6 +271,11 @@ article {
     text-align: center;
 }
 
+.cancelcolor {
+    background-color: transparent;
+}
+
+/* Anything that needs to override the entire CSS document should be placed here */
 
 @media only screen and (max-width: 1000px) {
     .size100,
