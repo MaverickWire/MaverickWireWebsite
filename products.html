@@ -20,7 +20,14 @@
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
                 <a class="nav-item nav-link" href="index.html">Home</a>
-                <a class="nav-item nav-link active" href="products.html">Products</a>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle active" href="products.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Products</a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="products.html#purplegard">Purple Gard<sup>&reg;</sup></a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="products.html#longhorn">Longhorn<sup>&trade;</sup></a>
+                    </div>
+                </li>
                 <a class="nav-item nav-link" href="#contact">Contact Us</a>
                 <a class="nav-item nav-link" href="">Webmail</a>
             </div>
@@ -40,7 +47,7 @@
     <!-- End of Jumbotron -->
     <div class="container">
         <!-- Main content -->
-        <div class="row">
+        <div class="row" id="purplegard">
             <div class="col-md">
                 <h3>Purple Gard<sup>&reg;</sup> Barbed Wire</h3>
                     <!-- Carousel display -->
@@ -101,7 +108,7 @@
             </div>
         </div>
         <hr>
-        <div class="row">
+        <div class="row" id="longhorn">
             <div class="col-md">
                 <h3>Longhorn<sup>&trade;</sup> Barbed Wire</h3>
                     <!-- Carousel display -->
