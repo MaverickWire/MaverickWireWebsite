@@ -1,80 +1,130 @@
 <!DOCTYPE html>
-<html lang="en">
-<!-- Copyright 2017 Maverick Wire LLC -->
+<html>
 
 <head>
-    <meta charset="utf-8">
-    <meta name="theme-color" content="purple">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="expires" content="0" />
     <title>Maverick Wire - Home</title>
-    <meta name="description" content="Maverick Wire is a company located in Missouri that sells wire fencing products, including purple coated barbed wire." />
-    <meta name="google-site-verification" content="CTtUmT3u_XBB4172vaCpdF1zShThQavUSyK_MWqDSjI" />
-    <link href="css/main.css" type="text/css" rel="stylesheet" />
+    <!-- Meta properties -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/main.css" type="text/css">
 </head>
 
 <body>
-    <nav>
-        <ul>
-            <img class="logo leftalign" src="img/maverickwirelogo.png" alt="Maverick Wire" />
-            <li>
-                <a href="http://mail.maverickwire.com">
-                    <h3>Webmail</h3>
-                </a>
-            </li>
-            <li>
-                <a href="contact.html">
-                    <h3>Contact</h3>
-                </a>
-            </li>
-            <li>
-                <a href="gallery.html">
-                    <h3>Gallery</h3>
-                </a>
-            </li>
-            <li>
-                <a href="productlist.html">
-                    <h3>Products</h3>
-                </a>
-            </li>
-            <li>
-                <a class="active" href="index.html">
-                    <h3>Home</h3>
-                </a>
-            </li>
-        </ul>
+    <!-- Menu -->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" style="color: mediumpurple;" href="#">Maverick Wire</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-item nav-link active" href="index.html">Home</a>
+                <a class="nav-item nav-link" href="products.html">Products</a>
+                <a class="nav-item nav-link" href="#contact">Contact Us</a>
+                <a class="nav-item nav-link" href="http://www.mail.maverickwire.com">Webmail</a>
+            </div>
+        </div>
     </nav>
-    <div id="head2">
-        <img class="leftfloat" src="img/barbedwirerollsgreybackground.jpg" width="400" height="300" alt="Rolls of Purple Gard barbed wire on a gray background" >
-        <h2>Home</h2>
-        <p>Welcome to our website! Here, you can find information about our products, what we do, and how to contact us.</p>
+    <!-- End of menu -->
+    <!-- Jumbotron -->
+    <div class="jumbotron">
+        <div class="container">
+            <div class="row">
+                <div class="col-md">
+                    <!-- Carousel display -->
+                    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img class="d-block w-100" src="img/100_1302x25.JPG" alt="First slide">
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block w-100" src="img/100_1394x25.JPG" alt="Second slide">
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block w-100" src="img/100_1402x25.JPG" alt="Third slide">
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                    <!-- End of carousel display -->
+                </div>
+                <div class="col-md">
+                    <h1 class="display-4">Reliable wire fencing products</h1>
+                    <p>We manufacture durable wire fencing products, including our patent protected Purple Gard<sup>&reg;</sup> barbed wire.</p>
+                    <p><a class="btn btn-primary btn-lg" href="products.html" role="button">Our products &raquo;</a></p>
+                </div>
+            </div>
+        </div>
     </div>
-    <article class="leftalign size33">
-        <h2>About Us</h2>
-        <p>Maverick Wire is a limited liability company located in Missouri, United States, that maunfactures wire fencing products, including purple coated barbed wire.</p>
-        <p>Currently, we are only accepting wholesale orders.</p>
-    </article>
-    <article class="centeralign size33">
-        <h2><a href="productlist.html">Our Products</a></h2>
-        <p>We sell both Longhorn&trade; barbed wire, and Purple Gard<sup>&reg;</sup> purple coated barbed wire.</p>
-        <p>You can find out more about our products, and view pictures of them, by clicking the "Our Products" link in the menu.</p>
-    </article>
-    <article class="rightalign size33">
-        <h2><a href="contact.html">Contact Us</a></h2>
-        <p>You can contact us by sending an email to: <a href="mailto:linnie@maverickwire.com">linnie@maverickwire.com</a>.</p>
-        <p>If you want to contact us about issues with this website, you can email <a href="mailto:admin@maverickwire.com">admin@maverickwire.com</a>.</p>
-        <p>We will reply as quickly as we can.</p>
-    </article>
-    <footer>
-       <div id="leftalign">
-           <h5><b>Copyright &copy;2017, Maverick Wire, LLC. All rights reserved.</b> Website designed by Ethan Moses.</h5>
-           <h5>Purple Gard<sup>&reg;</sup> is a registered trademark of Maverick Wire, LLC. Purple coated barbed wire is protected by US design patents.</h5>
-           <h5><a href="//www.dmca.com/Protection/Status.aspx?ID=f707b6a4-043e-4c5a-a5ab-2b7926b6642a" title="DMCA.com Protection Status" class="dmca-badge"> <img src="//images.dmca.com/Badges/dmca-badge-w100-5x1-08.png?ID=f707b6a4-043e-4c5a-a5ab-2b7926b6642a" alt="DMCA.com Protection Status"></a>
-                <script src="//images.dmca.com/Badges/DMCABadgeHelper.min.js">
-                </script>
-           </h5>
-       </div>
-    </footer>
+    <!-- End of Jumbotron -->
+    <div class="container">
+        <!-- Main content -->
+        <div class="row">
+            <div class="col-sm">
+                <h2>Design</h2>
+                <p>At Maverick Wire, we focus on the presentation of our product. That's why every roll of Purple Gard<sup>&reg;</sup> barbed wire has a high quality plastic reel, a reflective purple plastic coating that adds glamour to the product, and a label that both informs and attracts shoppers to our product.</p>
+            </div>
+            <div class="col-sm">
+                <h2>Quality</h2>
+                <p>We use only the best wire for our products. Our Purple Gard<sup>&reg;</sup> barbed wire uses Class 1 galvanized wire that is coated with a UV protected purple polymer alloy, so you get the most out of your purchase.</p>
+            </div>
+            <div class="col-sm">
+                <h2>Made in the USA</h2>
+                <p>Our barbed wire rolls are produced at our Missouri facility from components manufactured in the USA, so you can be sure that you are supporting local companies.</p>
+            </div>
+        </div> 
+        <hr>
+        <div class="row">
+            <div class="col-sm">
+                <h2>Want to find out more about our products, and where to purchase them?</h2>
+                <p><a class="btn btn-primary btn-lg" href="products.html" role="button">Click here &raquo;</a></p>
+            </div>
+        </div>
+        <!-- End of main content -->
+        <hr>
+        <!-- Footer -->
+        <footer id="contact">
+            <div class="row">
+                <div class="col-sm">
+                    <h5>Facebook</h5>
+                    <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fmaverickwire&tabs=timeline&width=300&height=300&small_header=true&adapt_container_width=false&hide_cover=false&show_facepile=false&appId" width="300" height="300" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+                </div>
+                <div class="col-sm">
+                    <h5>Twitter</h5>
+                    <a class="twitter-timeline" data-width="300" data-height="300" data-theme="light" data-link-color="#981CEB" href="https://twitter.com/maverickwirellc?ref_src=twsrc%5Etfw">Tweets by maverickwirellc</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+                </div>
+                <div class="col-sm">
+                    <h5>Contact info</h5>
+                    <ul>
+                        <li>Email admin@maverickwire.com</li>
+                        <li>Email linnie@maverickwire.com</li>
+                        <li>Send mail to our address</li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p>&copy;2017, Maverick Wire, LLC. All rights reserved.</p>
+            <p><a href="//www.dmca.com/Protection/Status.aspx?ID=f707b6a4-043e-4c5a-a5ab-2b7926b6642a" title="DMCA.com Protection Status" class="dmca-badge"> <img src="//images.dmca.com/Badges/dmca-badge-w100-5x1-08.png?ID=f707b6a4-043e-4c5a-a5ab-2b7926b6642a" alt="DMCA.com Protection Status"></a><script src="//images.dmca.com/Badges/DMCABadgeHelper.min.js"></script></p>
+        </footer>
+        <!-- End of footer -->
+    </div>
+    <!-- Javascript -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
 </body>
 
 </html>
