@@ -10,10 +10,12 @@ body {
 
 .btn-primary {
     background-color: mediumpurple;
+    border-color: mediumslateblue;
 }
 
 .btn-primary:hover {
     background-color: rebeccapurple;
+    border-color: blueviolet;
 }
 
 a {
@@ -26,4 +28,5 @@ a:hover {
 
 .alert {
     background-color: lavender;
+    border-color: lavender;
 }
