@@ -1,4 +1,29 @@
 body {
     margin-top: 3.5em;
+    background-color: white;
 }
 
+.jumbotron {
+    /*background-color: #ece9ef; */
+    background-color: lavender;
+}
+
+.btn-primary {
+    background-color: mediumpurple;
+}
+
+.btn-primary:hover {
+    background-color: rebeccapurple;
+}
+
+a {
+    color: mediumpurple;
+}
+
+a:hover {
+    color: rebeccapurple;
+}
+
+.alert {
+    background-color: lavender;
+}
