@@ -3,8 +3,15 @@ body {
     background-color: white;
 }
 
+.navbar-brand {
+    margin-top: -3px;
+}
+
+.logo {
+    margin-right: 7px;
+}
+
 .jumbotron {
-    /*background-color: #ece9ef; */
     background-color: lavender;
 }
 
