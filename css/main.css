@@ -41,3 +41,7 @@ a:hover {
 hr {
     background-color: lavender;
 }
+
+.image-fade:hover {
+    opacity: 0.7;
+}
