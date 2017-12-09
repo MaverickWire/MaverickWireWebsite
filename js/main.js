@@ -25,9 +25,9 @@ function initialize() {
         
     // Multiple Markers
     var markers = [
-        ['Sunlight Feed & Farm Center', 37.9424996,-90.782872],
-        ['Tractor Supply Co.', 37.7884455,-90.4343723],
-        ['MFA', 37.9162094,-91.325002]
+        ['Sunlight Feed & Farm Center', 37.9424996, -90.782872],
+        ['Tractor Supply Co.', 37.7884455, -90.4343723],
+        ['MFA', 37.9162094, -91.325002]
     ];
                         
     // Info Window Content
@@ -64,7 +64,7 @@ function initialize() {
             return function() {
                 infoWindow.setContent(infoWindowContent[i][0]);
                 infoWindow.open(map, marker);
-            }
+            };
         })(marker, i));
 
         // Automatically center the map fitting all markers on the screen
