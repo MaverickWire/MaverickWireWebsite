@@ -46,9 +46,10 @@ hr {
 .image-fade:hover {
     opacity: 0.7;
 }
+
 /* Google Maps CSS Rules */
 #map_wrapper {
-    height: 400px;
+    height: 445px;
 }
 
 #map_canvas {
