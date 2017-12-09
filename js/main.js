@@ -8,7 +8,7 @@ el.innerHTML = "Copyright &copy;" + year + ", Maverick Wire, LLC. All rights res
 jQuery(function($) {
     // Asynchronously Load the map API 
     var script = document.createElement('script');
-    script.src = "//maps.googleapis.com/maps/api/js?sensor=false&callback=initialize";
+    script.src = "//maps.googleapis.com/maps/api/js?key=AIzaSyBI_QjrjaE2Nj15hmjxVNO62sl-lbUzHzQ&callback=initialize";
     document.body.appendChild(script);
 });
 
