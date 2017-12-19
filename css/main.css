@@ -12,6 +12,10 @@ body {
     margin-right: 7px;
 }
 
+.indent {
+    margin-left: 2em;
+}
+
 .jumbotron {
     background-color: lavender;
 }
