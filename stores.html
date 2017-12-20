@@ -45,49 +45,50 @@
     <!-- End of Jumbotron -->
     <div class="container">
         <!-- Main content -->
-        <h3>Maverick Wire products are available at:</h3>
-        <hr>
-        <div class="row">
-            <div class="col-md">
-                <div class="card">
-                    <div class="card-body">
-                        <h4 class="card-title">Sunlight Feed &amp; Farm Center</h4>
-                        <p class="card-text">1001 North Missouri Street<br>Potosi, MO 63664</p>
-                    </div>
-                </div>
-                <br>
-                <div class="card">
-                    <div class="card-body">
-                        <h4 class="card-title">Tractor Supply Co.</h4>
-                        <p class="card-text">604 Walmart Drive<br>Farmington, MO 63640</p>
-                    </div>
-                </div>
-                <br>
-                <div class="card">
-                    <div class="card-body">
-                        <h4 class="card-title">Tractor Supply Co.</h4>
-                        <p class="card-text">40 Dillon Plaza Drive<br>High Ridge, MO 63049</p>
-                    </div>
-                </div>
-                <br>
-            </div>
-            <div class="col-md">
-                <div class="card">
-                    <div class="card-body">
-                        <h4 class="card-title">MFA</h4>
-                        <p class="card-text">17784 Highway 19<br>Steelville, MO 65565</p>
-                    </div>
-                </div>
-                <br>
-                <div class="card">
-                    <div class="card-body">
-                        <h4 class="card-title">MFA</h4>
-                        <p class="card-text">209 East 8th Street<br>Rolla, MO 65401</p>
-                    </div>
-                </div>
-                <br>
-            </div>
-        </div>
+        <input type="search" class="form-control light-table-filter" data-table="order-table" placeholder="Search stores...">
+        <br>
+        <table class="order-table table">
+            <thead class="thead-light">
+                <tr>
+                    <th scope="col">Store Name</th>
+                    <th scope="col">Address</th>
+                    <th scope="col">City</th>
+                    <th scope="col">State</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">Tractor Supply Co.</th>
+                    <td>604 Walmart Drive</td>
+                    <td>Farmington</td>
+                    <td>Missouri</td>
+                </tr>
+                <tr>
+                    <th scope="row">Tractor Supply Co.</th>
+                    <td>40 Dillon Plaza Drive</td>
+                    <td>High Ridge</td>
+                    <td>Missouri</td>
+                </tr>
+                <tr>
+                    <th scope="row">MFA</th>
+                    <td>17784 Highway 19</td>
+                    <td>Steelville</td>
+                    <td>Missouri</td>
+                </tr>
+                <tr>
+                    <th scope="row">MFA</th>
+                    <td>209 East 8th Street</td>
+                    <td>Rolla</td>
+                    <td>Missouri</td>
+                </tr>
+                <tr>
+                    <th scope="row">Sunlight Feed &amp; Farm Center</th>
+                    <td>1001 North Missouri Street</td>
+                    <td>Potosi</td>
+                    <td>Missouri</td>
+                </tr>
+            </tbody>
+        </table>
         <!-- End of main content -->
         <hr>
         <!-- Footer -->
