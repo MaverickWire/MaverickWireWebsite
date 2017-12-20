@@ -59,23 +59,23 @@ el.innerHTML = "Copyright &copy;" + year + ", Maverick Wire, LLC. All rights res
     var infoWindowContent = [
         ['<div class="info_content">' +
         '<h3>Sunlight Feed & Farm Center</h3>' +
-        '<p>1001 North Missouri Street<br>Potosi, MO 63664</p>' +        
+        '<p>1001 North Missouri Street, Potosi, MO 63664</p>' +        
         '</div>'],
         ['<div class="info_content">' +
         '<h3>Tractor Supply Co.</h3>' +
-        '<p>604 Walmart Drive<br>Farmington, MO 63640</p>' +
+        '<p>604 Walmart Drive, Farmington, MO 63640</p>' +
         '</div>'],
         ['<div class="info_content">' +
         '<h3>MFA</h3>' +
-        '<p>17784 Highway 19<br>Steelville, MO 65565</p>' +
+        '<p>17784 Highway 19, Steelville, MO 65565</p>' +
         '</div>'],
         ['<div class="info_content">' +
         '<h3>Tractor Supply Co.</h3>' +
-        '<p>40 Dillon Plaza Drive<br>High Ridge, MO 63049</p>' +
+        '<p>40 Dillon Plaza Drive, High Ridge, MO 63049</p>' +
         '</div>'],
         ['<div class="info_content">' +
         '<h3>MFA</h3>' +
-        '<p>209 East 8th Street<br>Rolla, MO 65401</p>' +
+        '<p>209 East 8th Street, Rolla, MO 65401</p>' +
         '</div>']
     ];
     */
