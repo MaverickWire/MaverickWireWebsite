@@ -16,6 +16,16 @@ body {
     margin-left: 2em;
 }
 
+/* Color and Appearance CSS Rules */
+
+.black {
+    color: black;
+}
+
+.jumbotron {
+    background-color: lavender;
+}
+
 .btn-primary {
     background-color: mediumpurple;
     border-color: mediumslateblue;
