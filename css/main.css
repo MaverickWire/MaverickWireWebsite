@@ -18,6 +18,10 @@ body {
 
 /* Color and Appearance CSS Rules */
 
+.bg-darkpurple {
+    background-color: #550087;
+}
+
 .black {
     color: black;
 }
