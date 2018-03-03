@@ -22,6 +22,11 @@ body {
     background-color: #550087;
 }
 
+.menuicon {
+    padding: 4px;
+    color: mediumpurple;
+}
+
 .black {
     color: black;
 }
@@ -38,6 +43,16 @@ body {
 .btn-primary:hover {
     background-color: rebeccapurple;
     border-color: blueviolet;
+}
+
+.smi-facebook {
+    font-size: 50px;
+    color: #3b5998;
+}
+
+.smi-twitter {
+    font-size: 50px;
+    color: #00aced;
 }
 
 a {
