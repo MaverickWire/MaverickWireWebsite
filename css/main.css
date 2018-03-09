@@ -1,7 +1,11 @@
+/* Font */
+/* @import url('https://fonts.googleapis.com/css?family=Roboto+Slab'); */
+
 /* General customization */
 body {
     margin-top: 3.5em;
     background-color: white;
+    /* font-family: "Roboto Slab", serif; */
 }
 
 .navbar-brand {
