@@ -2,7 +2,7 @@
 This repository logs changes of www.maverickwire.com.
 
 MaverickWireWebsite uses:
-* Bootstrap v4.0.0
+* Bootstrap v4.1.0
 * jQuery v3.2.1
 * Popper.js v1.12.9
 
