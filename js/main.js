@@ -2,7 +2,7 @@
 var today = new Date();
 var year = today.getFullYear();
 var el = document.getElementById('date');
-el.innerHTML = "Copyright &copy;2017-" + year + ", Maverick Wire, LLC. All rights reserved.";
+el.innerHTML = "<b>&copy;2017-" + year + ". All rights reserved.</b>";
 
 // State filter for stores.html
 (function(document) {

@@ -1,11 +1,11 @@
 /* Font */
-/* @import url('https://fonts.googleapis.com/css?family=Roboto+Slab'); */
+/*@import url('https://fonts.googleapis.com/css?family=Catamaran:400');*/
 
 /* General customization */
 body {
     margin-top: 3.5em; 
     background-color: white;
-    /* font-family: "Roboto Slab", serif; */
+    /*font-family: "Catamaran", sans-serif; */
 }
 
 .navbar-brand {
@@ -33,10 +33,6 @@ body {
 
 .black {
     color: black;
-}
-
-.jumbotron {
-    background-color: lavender;
 }
 
 .btn-primary {
