@@ -17,24 +17,8 @@
 </head>
 
 <body>
-    <!-- Load Facebook SDK for JavaScript -->
-    <div id="fb-root"></div>
-    <script>(function(d, s, id) {
-      var js, fjs = d.getElementsByTagName(s)[0];
-      if (d.getElementById(id)) return;
-      js = d.createElement(s); js.id = id;
-      js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js#xfbml=1&version=v2.12&autoLogAppEvents=1';
-      fjs.parentNode.insertBefore(js, fjs);
-    }(document, 'script', 'facebook-jssdk'));</script>
-
-    <!-- Your customer chat code -->
-    <div class="fb-customerchat"
-      attribution="setup_tool"
-      page_id="141609286603480"
-      theme_color="#7646ff">
-    </div>
     <!-- Menu -->
-    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar fixed-top navbar-expand-sm navbar-dark bg-dark">
         <a href="index.html"><img class="logo" src="img/letter-m.png" width="32" height="32" alt="Maverick Wire Logo"></a>
         <a class="navbar-brand" style="color: mediumpurple;" href="index.html">Maverick Wire</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -44,7 +28,6 @@
             <div class="navbar-nav">
                 <a class="nav-item nav-link active" href="index.html">Home</a>
                 <a class="nav-item nav-link" href="products.html">Products</a>
-                <a class="nav-item nav-link" href="resources.html">Resources</a>
                 <a class="nav-item nav-link" href="stores.html">Stores</a>
                 <a class="nav-item nav-link" href="contact.html">Contact Us</a>
             </div>
@@ -63,8 +46,7 @@
                             <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
                             <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
                             <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
-                            <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
-                         </ol>
+                        </ol>
                         <div class="carousel-inner">
                             <div class="carousel-item active">
                                 <img class="d-block w-100" src="img/100_1302.JPG" alt="First slide">
@@ -76,10 +58,7 @@
                                 <img class="d-block w-100" src="img/100_1402.JPG" alt="Third slide">
                             </div>
                             <div class="carousel-item">
-                                <img class="d-block w-100" src="img/Purple%20Gard.jpg" alt="Fourth slide">
-                            </div>
-                            <div class="carousel-item">
-                                <img class="d-block w-100" src="img/Longhorn.jpg" alt="Fifth slide">
+                                <img class="d-block w-100" src="img/Longhorn.jpg" alt="Fourth slide">
                             </div>
                         </div>
                         <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -105,24 +84,29 @@
     <div class="container">
         <!-- Main content -->
         <div class="row">
-            <div class="col-md">
+            <div class="col-lg-8 text-center">
+                <div class="card-group">
+                    <div class="card">
+                        <img class="card-img-top" src="img/Purple%20Gard%20Large.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Purple Gard<sup>&reg;</sup> barbed wire</h5>
+                            <a href="purplegard.html" class="btn btn-primary">Learn more &rarr;</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img class="card-img-top" src="img/Longhorn.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Longhorn<sup>&trade;</sup> barbed wire</h5>
+                            <a href="longhorn.html" class="btn btn-primary">Learn more &rarr;</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
                 <h2>About us</h2>
-                <p>Maverick Wire LLC produces wire fencing products, including our Longhorn<sup>&trade;</sup> galvanized barbed wire, and our patent protected Purple Gard<sup>&reg;</sup> purple coated barbed wire.</p>
-            </div>
-            <div class="col-md">
-                <h2>Our products</h2>
-                <p>We are currently selling our Purple Gard<sup>&reg;</sup> barbed wire with a purple plastic coating and our Longhorn<sup>&trade;</sup> galvanized barbed wire to wholesale customers in Missouri.</p>
-            </div>
-            <div class="col-md">
-                <h2>Purchase</h2>
-                <p>To purchase our products, visit participating stores. A list of stores can be found by clicking the "Stores" link in the menu above. For wholesale purchases, please contact us by emailing linnie@maverickwire.com.</p>
-            </div>
-        </div>
-        <hr>
-        <div class="row">
-            <div class="col-sm">
-                <h2>Want to find out more about our products, and where to purchase them?</h2>
-                <p><a class="btn btn-primary btn-lg" href="products.html" role="button">Click here &raquo;</a></p>
+                <p>Located in Missouri, Maverick Wire LLC produces wire fencing products, including our Longhorn<sup>&trade;</sup> galvanized barbed wire, and our patent protected Purple Gard<sup>&reg;</sup> purple coated barbed wire.</p>
+                <p>We manufacture galvanized barbed wire, coated single-strand wire, and coated barbed wire.</p>
+                <a href="contact.html">Contact information...</a>
             </div>
         </div>
         <!-- End of main content -->
@@ -130,29 +114,32 @@
         <!-- Footer -->
         <footer>
             <div class="row">
-                <div class="col-md">
+                <div class="col-md text-center">
+                    <img src="img/letter-m.png" width="100" height="100" alt="MW Logo">
+                    <p class="lead"><b>Maverick Wire LLC</b></p>
+                    <small id="date"></small>
+                </div>
+                <div class="col-md text-center">
                     <h5>Social media</h5>
                     <a class="image-fade" href="https://www.facebook.com/maverickwirellc"><i class="fab fa-facebook-square smi-facebook"></i></a>
                     <a class="image-fade" href="https://www.twitter.com/maverickwirellc"><i class="fab fa-twitter-square smi-twitter"></i></a>
+                    <a class="image-fade" href="https://www.instagram.com/maverickwirellc"><i class="fab fa-instagram smi-instagram"></i></a>
                     <br>
                     <small><b>@maverickwirellc</b></small>
                 </div>
-                <div class="col-md">
+                <div class="col-md text-center">
                     <h5>Quick links</h5>
                     <ul class="list-unstyled">
                         <li><a href="index.html">Home</a></li>
                         <li><a href="products.html">Products</a></li>
                         <li><a href="purplegard.html">Purple Gard<sup>&reg;</sup></a></li>
                         <li><a href="longhorn.html">Longhorn<sup>&trade;</sup></a></li>
-                        <li><a href="resources.html">Resources</a></li>
                         <li><a href="stores.html">Stores</a></li>
                         <li><a href="contact.html">Contact Us</a></li>
                         <li><a href="http://mail.maverickwire.com">Webmail</a></li>
                     </ul>
                 </div>
             </div>
-            <hr>
-            <p id="date"></p>
         </footer>
         <!-- End of footer -->
     </div>
